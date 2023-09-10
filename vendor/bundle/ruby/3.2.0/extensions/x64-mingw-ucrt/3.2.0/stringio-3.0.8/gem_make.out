@@ -1,0 +1,19 @@
+current directory: D:/shriffle_project/Task-Tracker/vendor/bundle/ruby/3.2.0/gems/stringio-3.0.8/ext/stringio
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/shriffle_project/Task-Tracker/vendor/bundle/ruby/3.2.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20230909-3420-k4881v sitelibdir\=./.gem.20230909-3420-k4881v clean
+
+current directory: D:/shriffle_project/Task-Tracker/vendor/bundle/ruby/3.2.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20230909-3420-k4881v sitelibdir\=./.gem.20230909-3420-k4881v
+generating stringio-x64-mingw-ucrt.def
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: D:/shriffle_project/Task-Tracker/vendor/bundle/ruby/3.2.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20230909-3420-k4881v sitelibdir\=./.gem.20230909-3420-k4881v install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20230909-3420-k4881v
+
+current directory: D:/shriffle_project/Task-Tracker/vendor/bundle/ruby/3.2.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20230909-3420-k4881v sitelibdir\=./.gem.20230909-3420-k4881v clean
