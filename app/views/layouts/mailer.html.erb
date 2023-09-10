@@ -7,7 +7,25 @@
     </style>
   </head>
 
-  <body>
+  <body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <table style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 5px;">
+        <tr>
+            <td style="text-align: center; padding: 20px 0;">
+                <img src="https://img.freepik.com/premium-vector/white-clipboard-task-management-todo-check-list-efficient-work-project-plan-fast-progress-level-up-concept-assignment-exam-productivity-solution-icon-3d-vector-render-white-background_412828-739.jpg?w=2000" alt="Task Tracker" width="150">
+            </td>
+        </tr>
+        <tr>
+          <td style="padding: 20px;">
     <%= yield %>
-  </body>
+            <p>Best regards,<br>The Task Tracker Team</p>
+            </td>
+        </tr>
+        <tr>
+          <td style="background-color: #007BFF; padding: 10px; text-align: center;">
+            <p style="color: #fff; font-size: 14px; margin: 0;">&copy; 2023 Task Tracker</p>
+          </td>
+      </tr>
+  </table>
+</body>
 </html>
+
